@@ -3,7 +3,8 @@ use_frameworks!
 
 def shared_pods
     pod 'SwiftyBeaver'
-    pod 'OpenSSL-Apple', '~> 1.1.1h.10'
+    #pod 'OpenSSL-Apple', '~> 1.1.1h.10'
+   pod 'OpenSSL-Universal'
 end
 
 def demo_pods
